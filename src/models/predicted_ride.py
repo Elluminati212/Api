@@ -192,7 +192,7 @@ def fetch_data_for_all_months(mongo_uri, db_name, collection_name, start_date, e
 
 # Function to call the API and get credentials, with a fallback to default credentials
 def get_api_credentials():
-    url = 'http://192.168.0.179:4000/api/service_config/credentials?product=STARLOR&service=AI_PREDICTION%27'
+    url = 'http://apiplatform.elluminatiinc.net/api/service_config/credentials?product=STARLOR&service=AI_PREDICTION'
     try:
         response = requests.get(url, timeout=10)  # Adding a timeout for better error handling
         if response.status_code == 200:
