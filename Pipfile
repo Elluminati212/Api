@@ -24,6 +24,12 @@ numpy = "*"
 fastapi = "*"
 uvicorn = "*"
 python-dotenv = "*"
+pyjwt = "*"
+requests = "*"
+pydantic = "*"
+pillow = "*"
+matplotlib = "*"
+
 
 [dev-packages]
 
